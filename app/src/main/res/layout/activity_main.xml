@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Base.TextAppearance.AppCompat.Display3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="10dp"
+
+        android:layout_marginBottom="16dp"
+        android:text="@string/code" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:textColor="#2196F3"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </CalendarView>
+
+
+</LinearLayout>
